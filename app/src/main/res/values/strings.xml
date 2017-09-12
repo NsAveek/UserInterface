@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="openDrawer">Open Drawer </string>
+    <string name="closeDrawer">Close Drawer </string>
+    <string-array name="navigation_drawer_items_array">
+        <item>HOME SCREEN</item>
+        <item>DELIVERY ORDER</item>
+        <item>DELIVERY ORDER SUMMARY</item>
+        <item>PURCHASE MEMO</item>
+        <item>DIRECT BRANCH TRANSFER</item>
+        <item>DIRECT BRANCH TRANSFER SUMMARY</item>
+        <item>LOG OUT</item>
+
+    </string-array>
+
+    <string-array name="navigation_drawer_items_array_bt">
+        <item>BRANCH TRANSFER</item>
+        <item>LOG OUT</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_do">DO</string>
+    <string name="title_activity_dbt">DBT</string>
+    <string name="title_activity_pm">PM</string>
+    <string name="title_activity_bt">BT</string>
+    <string name="title_activity_delivery_summary">Delivery Summary</string>
+    <string name="title_activity_do_details">Delivery Order Details</string>
+    <string name="title_activity_photo">Photo Processing</string>
+    <string name="title_activity_survey">Survey </string>
+    <string name="title_activity_dbt_details">DBT Details</string>
+    <string name="title_activity_dbt_summary">DBT Summary</string>
+    <string name="title_activity_bt_summary">BT Summary</string>
+    <string name="title_activity_purchase_memo_details">PM Details</string>
+    <string name="title_activity_bt_details">BT Details</string>
+    <string name="title_activity_login">Sign In</string>
+
+    <string name="font_family">sans-serif</string>
+
+    <!-- Strings related to login -->
+
+    <string name="radio_button_value_0">0</string>
+    <string name="radio_button_value_1">1</string>
+    <string name="radio_button_value_2">2</string>
+    <string name="radio_button_value_3">3</string>
+    <string name="radio_button_value_4">4</string>
+    <string name="radio_button_value_5">5</string>
+    <string name="radio_button_value_6">6</string>
+    <string name="radio_button_value_7">7</string>
+    <string name="radio_button_value_8">8</string>
+    <string name="radio_button_value_9">9</string>
+    <string name="radio_button_value_10">10</string>
+
+
+    <string name="prompt_email">Email</string>
+
+    <string name="usercode_hint">User Code</string>
+    <string name="password_hint">Password</string>
+
+    <string name="prompt_password">Password (optional)</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="error_invalid_password">This password is too short</string>
+
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+
+    <string name="title_activity_licence">LicenceActivity</string>
+
+    <string name="hint_activation">Enter The Activation Key</string>
+
+    <string name="application_name">eDO</string>
+
+    <string name="hint_user_code">User Code</string>
+
+    <string name="user_login">USER LOGIN</string>
+
+    <string name="user_password">Password</string>
+
+    <string name="button_login">LOG IN</string>
+
+    <string name="outlet_code">Outlet Code</string>
+
+    <string name="enable_notification">notification enabled</string>
+
+    <string name="clear">Clear</string>
+
+
+    <!-- Survey Questionnaire -->
+    <!--<string name="survey_title">Please rate the following questions on a scale of 1-10. 0 means very poor, 10 means very good.</string>-->
+    <string name="survey_title">Are you satisfied with our service?</string>
+    <string name="survey_title_malay">Sila berikan penilaian berikut pada skala 0-10, iaitu 0 adalah Tidak baik dan 10 adalah Sangat baik.</string>
+
+    <string name="survey_ques_1">How satisfied were you with the cleanliness of the area after installation?</string>
+    <string name="survey_ques_2">How clear were the installers instructions when he guided you on product usage?</string>
+    <string name="survey_ques_3">How satisfied were you on the quality and workmanship of the installation? </string>
+
+    <string name="survey_ques_1_malay">Bagaimanakah tahap kepuasan anda dengan kebersihan selepas proses pemasangan di kawasan anda?</string>
+    <string name="survey_ques_2_malay">Bagaimanakah tahap kejelasan penerangan dari pihak pemasangan apabila memberi tunjuk ajar tentang penggunaan barang?</string>
+    <string name="survey_ques_3_malay">Bagaimanakah tahap kepuasan anda dengan kualiti pemasangan dan mutu kerja kami?</string>
+
+    <string name="acknowledgement">I acknowledge that I have received product in good condition</string>
+    <string name="title_activity_sync">Sync</string>
+
+    <string name="rcv_qty_warning">Received Quantity can not be blank, You must insert a value</string>
+
+    <string name="signature_confirm_warning">You have pressed confirm. Once confirmed you cannot edit your signature anymore. Press Ok to re confirm, Cancel to dismiss. </string>
+    <string name="error_select_smiley"> Sorry! You need to select Smiley first before signing. Press Ok to dismiss. </string>
+
+    <string name="no_item">[ No item to show. Press LOAD and continue. ]</string>
+
+
+</resources>

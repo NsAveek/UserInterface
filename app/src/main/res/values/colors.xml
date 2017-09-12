@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A7E0A5</color>
+
+    <color name="colorPrimaryDark">#7CD175</color>
+
+    <color name="colorAccent">@color/fontColor</color>
+
+    <color name="fontColor">#827E98</color>
+
+    <color name="logoColor">#8090aa</color>
+
+    <color name="background">#a7a7a7</color>
+
+    <color name="button_cancel">#db8b8b</color>
+
+    <color name="button_normal">#E0E0E0</color>
+
+    <color name="edittext_background">#F3F3F3</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#fffaef</color>
+
+
+    <color name="button_pressed">@color/colorPrimary</color>
+
+    <color name="button_focused">@color/colorPrimary</color>
+
+    <color name="button_default">@color/colorPrimaryDark</color>
+
+    <color name="senhenggreen">#44a546</color>
+    <color name="senhengred">#e20528</color>
+    <color name="senhengbackground">#fcfcfc</color>
+    <color name="lightGrey">#959596</color>
+    <color name="lightGrey2">#a7a7a7</color>
+
+    <color name="green2">#3d943f</color>
+    <color name="green3">#368438</color>
+    <color name="green4">#56ae58</color>
+
+    <color name="skyblue">#e5edf9</color>
+
+
+
+</resources>
