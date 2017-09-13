@@ -2,6 +2,8 @@
     <string name="app_name">Profile</string>
     <string name="openDrawer">Open Drawer </string>
     <string name="closeDrawer">Close Drawer </string>
+    <string name="appId">115900495756343</string>
+
     <string-array name="navigation_drawer_items_array">
         <item>HOME SCREEN</item>
         <item>DELIVERY ORDER</item>
@@ -13,6 +15,8 @@
 
     </string-array>
 
+
+
     <string-array name="navigation_drawer_items_array_bt">
         <item>BRANCH TRANSFER</item>
         <item>LOG OUT</item>
@@ -21,21 +25,6 @@
 
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_do">DO</string>
-    <string name="title_activity_dbt">DBT</string>
-    <string name="title_activity_pm">PM</string>
-    <string name="title_activity_bt">BT</string>
-    <string name="title_activity_delivery_summary">Delivery Summary</string>
-    <string name="title_activity_do_details">Delivery Order Details</string>
-    <string name="title_activity_photo">Photo Processing</string>
-    <string name="title_activity_survey">Survey </string>
-    <string name="title_activity_dbt_details">DBT Details</string>
-    <string name="title_activity_dbt_summary">DBT Summary</string>
-    <string name="title_activity_bt_summary">BT Summary</string>
-    <string name="title_activity_purchase_memo_details">PM Details</string>
-    <string name="title_activity_bt_details">BT Details</string>
-    <string name="title_activity_login">Sign In</string>
 
     <string name="font_family">sans-serif</string>
 
@@ -92,6 +81,10 @@
     <string name="outlet_code">Outlet Code</string>
 
     <string name="enable_notification">notification enabled</string>
+
+    <string name="remember_me">Remember Me</string>
+
+
 
     <string name="clear">Clear</string>
 

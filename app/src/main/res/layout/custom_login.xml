@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login_card"
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dp20">
+
+            <LinearLayout
+                android:id="@+id/content_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/usercode_custom_layout"
+                    layout="@layout/usercode_layout" />
+
+                <include
+                    android:id="@+id/password_custom_layout"
+                    layout="@layout/password_layout" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content_login"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_proceed_background"
+                android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                android:text="@string/button_login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/version_size"
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@id/login_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/circle_background"
+        android:elevation="8dp"
+        android:padding="@dimen/dp10"
+        android:src="@drawable/aa" />
+</RelativeLayout>
+<!--
+
+<RelativeLayout
+android:id="@+id/rl_login_social"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/button_login"
+android:layout_marginTop="@dimen/dp15"
+android:paddingTop="@dimen/dp5">
+
+<TextView
+    android:id="@+id/orText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="OR" />
+
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/sign_in_button"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp40"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/orText"
+    android:layout_marginBottom="@dimen/dp5" />
+
+<com.facebook.login.widget.LoginButton
+    android:id="@+id/login_button"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp40"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/sign_in_button"
+    android:layout_centerHorizontal="true"
+    android:gravity="center" />
+
+</RelativeLayout>-->
